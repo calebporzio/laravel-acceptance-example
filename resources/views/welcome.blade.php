@@ -80,6 +80,9 @@
             <div class="content">
                 <div class="title m-b-md">
                     Laravel
+                    @if(Auth::check())
+                        Am Logged In
+                    @endif
                 </div>
 
                 <div class="links">
